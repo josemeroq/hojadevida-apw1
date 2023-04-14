@@ -1,0 +1,105 @@
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+    
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+    
+  :root {
+    --gris-oscuro: #1e1e1e;
+    --rojo-oscuro: #702e37; 
+    --main-font: "Oswald", sans-serif;
+    --secondary-font: "Open Sans", sans-serif;
+    --verde-oscuro: #05240e;
+  }
+  
+  body, header   {
+    align-items: center;
+    background-color: var(--rojo-oscuro);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .title {
+    color: var(--blanco);
+    font-family: var(--main-font);
+    font-size: 55px;
+    margin-top: 16px;
+  }
+  
+  .subtitle {
+    color: var(--verde-oscuro);
+    font-family: var(--secondary-font);
+    font-size: 24px;
+  }
+
+  .header-img {
+    background: center / contain no-repeat; 
+    border-radius: 30%;
+    border: 1px solid var(--gris-oscuro);
+    box-shadow: 8px 16px 32px 0px var(--shadow);
+    height: 200px;
+    margin-top: 80px;
+    width: 200px;
+  }
+
+  
+  .perfil {
+    border:  groove;
+    border-color:#1e1e1e;
+    background-color: rgb(128, 92, 92);
+    margin: 10px 100px;
+    font-family: var(--secondary-font);
+    text-align: center;
+    width: 300px;
+  }
+  
+  .contacto, .educacion, .habilidades, .conocimientos {
+
+    border: groove;
+    border-radius: 15%;
+    border-color:#1e1e1e;
+    background-color: rgb(128, 92, 92);
+    margin: 0px 25px;
+    font-family: var(--secondary-font);
+    text-align: center;
+    width: 300px;
+  }
+  
+  .refer{
+    text-align: center;
+  }
+
+  ul{
+    text-align: left;
+  }
+  .pf, .contc, .educa, .habi,.conoc, .refer{
+    color: rgb(105, 4, 4);
+  }
+  
+  table {
+    list-style-type: "width: 100%;"
+  }
+
+  table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  table{
+    width: 100%;
+    background-color: rgb(128, 92, 92);
+  }
+
